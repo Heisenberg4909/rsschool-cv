@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    background: #111111;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.main_container {
+    color: rgb(254, 203, 0);
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.orange {
+    color: rgb(216, 110, 23);
+}
+
+.header {
+    background: rgb(254, 203, 0);
+}
+
+.section {
+    font-size: 18px;
+}
+
+.header-menu__list {
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+.header-menu__item{
+    position: relative;
+}
+
+.nav_link {
+    color: #000000
+}
+
+.nav_link:hover::before{
+    position: absolute;
+    bottom: 0;
+    content:"";
+    width: 100%;
+    height: 2px;
+    background: #111111;
+    animation: underline 2s;
+
+}
+@keyframes underline{
+          0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+
+}
+
+.section_profile__items {
+    padding: 50px 0;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile_foto {
+    width: 200px;
+    height: 250px;
+}
+
+.profile_info {
+    background: rgb(254, 203, 0);
+    width: 100%;
+    padding: 30px;
+    text-align: right;
+}
+
+.portfolio_title {
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.portfolio_subtitle {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contact_items {
+    padding: 50px 0;
+    font-size: 18px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+.contacts_link {
+    position: relative ;
+    font-family: "Montserrat Alternates";
+    color: rgb(216, 110, 23);
+}
+
+.contacts_link:hover::before{
+    position: absolute;
+    bottom: -2px;
+    content:"";
+    width: 100%;
+    height: 2px;
+    background: rgb(216, 110, 23);
+    animation: underline 2s;
+
+}
+@keyframes underline{
+          0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+
+}
+.summary_items {
+    padding: 50px 0;
+}
+
+.skills_items {
+    padding: 50px 0;
+}
+
+.code {
+    font-size: 18px;
+}
+
+.code_items {
+    padding: 50px 0;
+}
+
+.courses_items {
+    padding: 50px 0;
+}
+
+.educations_items {
+    padding: 50px 0;
+}
+
+.english_items {
+    padding: 50px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+
+.rss {
+    width: 120px;
+}
+
+.footer_items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer {
+    background: rgb(254, 203, 0)
+}
+
+.foot_link {
+    position: relative;
+    color: #000000
+}
+
+.foot_link:hover::before {
+    position: absolute;
+    bottom: -2px;
+    content:"";
+    width: 100%;
+    height: 2px;
+    animation: underline 2s;
+    background: #000000
+}
+
+
